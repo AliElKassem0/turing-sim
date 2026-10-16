@@ -1210,6 +1210,13 @@ li + li .config::before {
   color: var(--muted);
 }
 
+.footer-note {
+  max-width: 60ch;
+  margin: 6px auto 0;
+  font-size: 12.5px;
+  opacity: 0.85;
+}
+
 .toast {
   position: fixed;
   bottom: 24px;

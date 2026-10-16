@@ -88,6 +88,16 @@ GitHub Pages on every push to `main`. The Vite `base` is `/turing-sim/` (see
 `vite.config.ts`), so the site lives at `https://<username>.github.io/turing-sim/`.
 If you rename the repository, change `base` to match.
 
+## About this project
+
+This is a learning project. The visual design is fully AI-generated. The
+simulation logic is my own: I worked out how the machine has to behave (the
+tape model, the step rule, the partial transition function, when a machine
+halts, accepts or rejects, and how the engine is structured) and verified the
+expected results by running the machines by hand. I did this to understand how
+a Turing machine actually works and how to simulate one. AI then turned that
+specification into TypeScript.
+
 ## Author
 
-Designed and built by Ali El Kassem.
+Ali El Kassem

@@ -169,7 +169,16 @@ export function mountApp(root: HTMLElement): void {
         h('section', { class: 'panel' }, panelHead('Formal definition'), definition),
       ),
     ),
-    h('footer', { class: 'footer' }, `© ${new Date().getFullYear()} Ali El Kassem`),
+    h(
+      'footer',
+      { class: 'footer' },
+      h('p', {}, `© ${new Date().getFullYear()} Ali El Kassem`),
+      h(
+        'p',
+        { class: 'footer-note' },
+        'A learning project. The design is fully AI-generated; the simulation logic is my own, worked out to understand how a Turing machine actually works.',
+      ),
+    ),
     editor.dialog,
     toast,
   );
