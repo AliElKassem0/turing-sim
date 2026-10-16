@@ -95,8 +95,7 @@ simulation logic is my own: I worked out how the machine has to behave (the
 tape model, the step rule, the partial transition function, when a machine
 halts, accepts or rejects, and how the engine is structured) and verified the
 expected results by running the machines by hand. I did this to understand how
-a Turing machine actually works and how to simulate one. AI then turned that
-specification into TypeScript.
+a Turing machine actually works and how to simulate one.
 
 ## Author
 
