@@ -100,3 +100,7 @@ a Turing machine actually works and how to simulate one.
 ## Author
 
 Ali El Kassem
+
+## License
+
+[MIT](LICENSE) © 2026 Ali El Kassem
